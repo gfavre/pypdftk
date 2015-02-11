@@ -15,7 +15,7 @@ import shutil
 if os.getenv('PDFTK_PATH'):
     PDFTK_PATH = os.getenv('PDFTK_PATH')
 else:
-    PDFTK_PATH = '/usr/bin/pdftk'
+    PDFTK_PATH = 'pdftk'
 
 
 def check_output(*popenargs, **kwargs):
